@@ -103,7 +103,7 @@ def vis_layer(layer, vgg16_conv, vgg16_deconv):
 
 if __name__ == '__main__':
     
-    img_path = './data/cat.jpg'
+    img_path = './data/dog.jpg'
 
     # forward processing
     img = load_images(img_path)
